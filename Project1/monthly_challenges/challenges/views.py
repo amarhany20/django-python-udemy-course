@@ -4,17 +4,17 @@ from django.shortcuts import render
 # Create your views here.
 monthly_challenges = {
     "january": "jan challenge",
-    "february": "jan challenge",
-    "march": "jan challenge",
-    "april": "jan challenge",
-    "may": "jan challenge",
-    "june": "jan challenge",
-    "july": "jan challenge",
-    "august": "jan challenge",
-    "september": "jan challenge",
-    "october": "jan challenge",
-    "november": "jan challenge",
-    "december": "jan challenge",
+    "february": "feb challenge",
+    "march": "march challenge",
+    "april": "apr challenge",
+    "may": "may challenge",
+    "june": "june challenge",
+    "july": "july challenge",
+    "august": "august challenge",
+    "september": "sept challenge",
+    "october": "oct challenge",
+    "november": "nov challenge",
+    "december": "dec challenge",
 }
 def monthly_challenge(request,month):
 
