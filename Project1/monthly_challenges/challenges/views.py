@@ -1,8 +1,10 @@
 # Import necessary modules from Django
-from django.http import HttpResponse, HttpResponseNotFound, HttpResponseRedirect
+from django.http import HttpResponse, HttpResponseNotFound, HttpResponseRedirect, Http404
 from django.shortcuts import render
 from django.urls import reverse
 from urllib3 import request
+
+# from django.template.loader import render_to_string
 
 # Create your views here.
 
@@ -47,7 +49,7 @@ def monthly_challenge(request, month):
             "month_name": month.capitalize()
         })
     except:
-        return HttpResponseNotFound("This month is not supported")
+        raise Http404()
 
 
 def monthly_challenge_by_number(request, month):
