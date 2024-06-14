@@ -8,3 +8,4 @@
 /my_site/blog/migrations/__pycache__
 *.pyc
 /my_site/my_site/__pycache__
+/book_store/.idea
