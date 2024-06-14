@@ -11,7 +11,7 @@
 {% endblock %}
 
 {% block content %}
-    {% include "includes/header.html" %}
+    {% include "blog/includes/header.html" %}
     <ul>
         {% for month in months %}
             <li><a href="{% url 'monthly_challenge' month=month %}">{{ month|title }}</a></li>

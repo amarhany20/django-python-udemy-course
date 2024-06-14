@@ -4,3 +4,7 @@
 /Project1/monthly_challenges/challenges/__pycache__
 /Project1/monthly_challenges/monthly_challenges/__pycache__
 /Project1/monthly_challenges/monthly_challenges/__pycache__
+/my_site/blog/__pycache__
+/my_site/blog/migrations/__pycache__
+*.pyc
+/my_site/my_site/__pycache__
